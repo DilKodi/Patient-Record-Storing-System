@@ -1,0 +1,47 @@
+/* ViewPatient.css */
+.view-patient-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  .patient-info {
+    margin-bottom: 20px;
+  }
+  
+  .patient-info p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+  
+  .patient-info strong {
+    font-weight: bold;
+  }
+  
+  .back-btn {
+    display: block;
+    width: 50%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 0 auto;
+  }
+  
+  .back-btn:hover {
+    background-color: #45a049;
+  }
+  
