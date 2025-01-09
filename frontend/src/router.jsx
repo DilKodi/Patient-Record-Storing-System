@@ -17,13 +17,13 @@ import wallpaper from "./assets/image.jpeg";
 
 const backgroundStyle = {
   backgroundImage: `url(${wallpaper})`,
-  backgroundSize: "cover", // Ensures the image covers the entire container
-  backgroundRepeat: "no-repeat", // Prevents the image from repeating
-  backgroundPosition: "center", // Centers the image in the container
-  height: "100vh", // Makes the container's height equal to the viewport height
-  width: "100vw", // Makes the container's width equal to the viewport width
-  margin: 0, // Removes any default margins from the container
-  padding: 0, // Removes any default padding from the container
+  backgroundSize: "cover", 
+  backgroundRepeat: "no-repeat", 
+  backgroundPosition: "center", 
+  height: "100vh",
+  width: "100vw", 
+  margin: 0, 
+  padding: 0, 
   overflow: "hidden",
 };
 
