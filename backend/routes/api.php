@@ -22,11 +22,9 @@ Route::get('/test-pusher', function () {
         );
 
         $response = $pusher->trigger('doctors', 'test-event', ['message' => 'Hello Pusher!']);
-        Log::info('Pusher response:', ['response' => $response]);
 
         return response()->json(['success' => $response]);
     } catch (\Exception $e) {
-        Log::error('Pusher error:', ['error' => $e->getMessage()]);
         return response()->json(['error' => $e->getMessage()], 500);
     }
 });
